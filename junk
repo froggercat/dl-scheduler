@@ -1,1 +1,224 @@
-[{"2x": true, "title": "Catoblepas Anemos", "path": "../assets/2x_catoblepas_anemos.png"}, {"2x": true, "title": "Ebon Chimera", "path": "../assets/2x_ebon_chimera.png"}, {"2x": true, "title": "Eolian Phantom", "path": "../assets/2x_eolian_phantom.png"}, {"2x": true, "title": "Frost Hermit", "path": "../assets/2x_frost_hermit.png"}, {"2x": true, "title": "Greedy Manticore", "path": "../assets/2x_greedy_manticore.png"}, {"2x": true, "title": "Lambent Ghost", "path": "../assets/2x_lambent_ghost.png"}, {"2x": true, "title": "Proud Manticore", "path": "../assets/2x_proud_manticore.png"}, {"2x": true, "title": "Raging Manticore", "path": "../assets/2x_raging_manticore.png"}, {"2x": true, "title": "Scalding Shroom", "path": "../assets/2x_scalding_shroom.png"}, {"2x": true, "title": "Twilight Hermit", "path": "../assets/2x_twilight_hermit.png"}, {"2x": true, "title": "Void Agni", "path": "../assets/2x_void_agni.png"}, {"2x": true, "title": "Void Jeanne", "path": "../assets/2x_void_jeanne.png"}, {"2x": true, "title": "Void Nidhogg", "path": "../assets/2x_void_nidhogg.png"}, {"2x": true, "title": "Void Poseidon", "path": "../assets/2x_void_poseidon.png"}, {"2x": true, "title": "Void Zephyr", "path": "../assets/2x_void_zephyr.png"}, {"2x": true, "title": "Volcanic Chimera", "path": "../assets/2x_volcanic_chimera.png"}, {"2x": true, "title": "Wandering Shroom", "path": "../assets/2x_wandering_shroom.png"}, {"2x": false, "title": "Amber Golem", "path": "../assets/amber_golem.png"}, {"2x": false, "title": "Blazing Ghost", "path": "../assets/blazing_ghost.png"}, {"2x": false, "title": "Catoblepas Anemos", "path": "../assets/catoblepas_anemos.png"}, {"2x": false, "title": "Ebon Chimera", "path": "../assets/ebon_chimera.png"}, {"2x": false, "title": "Eolian Phantom", "path": "../assets/eolian_phantom.png"}, {"2x": false, "title": "Frost Hermit", "path": "../assets/frost_hermit.png"}, {"2x": false, "title": "Greedy Manticore", "path": "../assets/greedy_manticore.png"}, {"2x": false, "title": "Gust Shroom", "path": "../assets/gust_shroom.png"}, {"2x": false, "title": "Lambent Ghost", "path": "../assets/lambent_ghost.png"}, {"2x": false, "title": "Obsidian Golem", "path": "../assets/obsidian_golem.png"}, {"2x": false, "title": "Proud Manticore", "path": "../assets/proud_manticore.png"}, {"2x": false, "title": "Scalding Shroom", "path": "../assets/scalding_shroom.png"}, {"2x": false, "title": "Violet Ghost", "path": "../assets/violet_ghost.png"}, {"2x": false, "title": "Void Agni", "path": "../assets/void_agni.png"}, {"2x": false, "title": "Void Jeanne", "path": "../assets/void_jeanne.png"}, {"2x": false, "title": "Void Nidhogg", "path": "../assets/void_nidhogg.png"}, {"2x": false, "title": "Void Poseidon", "path": "../assets/void_poseidon.png"}, {"2x": false, "title": "Void Zephyr", "path": "../assets/void_zephyr.png"}, {"2x": false, "title": "Volcanic Chimera", "path": "../assets/volcanic_chimera.png"}, {"2x": false, "title": "Wandering Shroom", "path": "../assets/wandering_shroom.png"}]
+[
+    {
+        "data": [
+            {
+                "element": "wind",
+                "images": {
+                    "2x": "../assets/2x_catoblepas_anemos.png",
+                    "path": "../assets/catoblepas_anemos.png"
+                },
+                "title": "Catoblepas Anemos"
+            }
+        ],
+        "key": "anemos"
+    },
+    {
+        "data": [
+            {
+                "element": "shadow",
+                "images": {
+                    "2x": "../assets/2x_ebon_chimera.png",
+                    "path": "../assets/ebon_chimera.png"
+                },
+                "title": "Ebon Chimera"
+            },
+            {
+                "element": "fire",
+                "images": {
+                    "2x": "../assets/2x_volcanic_chimera.png",
+                    "path": "../assets/volcanic_chimera.png"
+                },
+                "title": "Volcanic Chimera"
+            }
+        ],
+        "key": "chimera"
+    },
+    {
+        "data": [
+            {
+                "element": "wind",
+                "images": {
+                    "2x": "../assets/2x_eolian_phantom.png",
+                    "path": "../assets/eolian_phantom.png"
+                },
+                "title": "Eolian Phantom"
+            }
+        ],
+        "key": "phantom"
+    },
+    {
+        "data": [
+            {
+                "element": "water",
+                "images": {
+                    "2x": "../assets/2x_frost_hermit.png",
+                    "path": "../assets/frost_hermit.png"
+                },
+                "title": "Frost Hermit"
+            },
+            {
+                "element": "shadow",
+                "images": {
+                    "2x": "../assets/2x_twilight_hermit.png"
+                },
+                "title": "Twilight Hermit"
+            }
+        ],
+        "key": "hermit"
+    },
+    {
+        "data": [
+            {
+                "element": "water",
+                "images": {
+                    "2x": "../assets/2x_greedy_manticore.png",
+                    "path": "../assets/greedy_manticore.png"
+                },
+                "title": "Greedy Manticore"
+            },
+            {
+                "element": "light",
+                "images": {
+                    "2x": "../assets/2x_proud_manticore.png",
+                    "path": "../assets/proud_manticore.png"
+                },
+                "title": "Proud Manticore"
+            },
+            {
+                "element": "shadow",
+                "images": {
+                    "2x": "../assets/2x_raging_manticore.png",
+                    "path": "../assets/raging_manticore.png"
+                },
+                "title": "Raging Manticore"
+            }
+        ],
+        "key": "manticore"
+    },
+    {
+        "data": [
+            {
+                "element": "light",
+                "images": {
+                    "2x": "../assets/2x_lambent_ghost.png",
+                    "path": "../assets/lambent_ghost.png"
+                },
+                "title": "Lambent Ghost"
+            },
+            {
+                "element": "fire",
+                "images": {
+                    "path": "../assets/blazing_ghost.png"
+                },
+                "title": "Blazing Ghost"
+            },
+            {
+                "element": "shadow",
+                "images": {
+                    "path": "../assets/violet_ghost.png"
+                },
+                "title": "Violet Ghost"
+            }
+        ],
+        "key": "ghost"
+    },
+    {
+        "data": [
+            {
+                "element": "fire",
+                "images": {
+                    "2x": "../assets/2x_scalding_shroom.png",
+                    "path": "../assets/scalding_shroom.png"
+                },
+                "title": "Scalding Shroom"
+            },
+            {
+                "element": "light",
+                "images": {
+                    "2x": "../assets/2x_wandering_shroom.png",
+                    "path": "../assets/wandering_shroom.png"
+                },
+                "title": "Wandering Shroom"
+            },
+            {
+                "element": "wind",
+                "images": {
+                    "path": "../assets/gust_shroom.png"
+                },
+                "title": "Gust Shroom"
+            }
+        ],
+        "key": "shroom"
+    },
+    {
+        "data": [
+            {
+                "element": "fire",
+                "images": {
+                    "2x": "../assets/2x_void_agni.png",
+                    "path": "../assets/void_agni.png"
+                },
+                "title": "Void Agni"
+            },
+            {
+                "element": "light",
+                "images": {
+                    "2x": "../assets/2x_void_jeanne.png",
+                    "path": "../assets/void_jeanne.png"
+                },
+                "title": "Void Jeanne"
+            },
+            {
+                "element": "shadow",
+                "images": {
+                    "2x": "../assets/2x_void_nidhogg.png",
+                    "path": "../assets/void_nidhogg.png"
+                },
+                "title": "Void Nidhogg"
+            },
+            {
+                "element": "water",
+                "images": {
+                    "2x": "../assets/2x_void_poseidon.png",
+                    "path": "../assets/void_poseidon.png"
+                },
+                "title": "Void Poseidon"
+            },
+            {
+                "element": "wind",
+                "images": {
+                    "2x": "../assets/2x_void_zephyr.png",
+                    "path": "../assets/void_zephyr.png"
+                },
+                "title": "Void Zephyr"
+            }
+        ],
+        "key": "dragon"
+    },
+    {
+        "data": [
+            {
+                "element": "light",
+                "images": {
+                    "path": "../assets/amber_golem.png"
+                },
+                "title": "Amber Golem"
+            },
+            {
+                "element": "shadow",
+                "images": {
+                    "path": "../assets/obsidian_golem.png"
+                },
+                "title": "Obsidian Golem"
+            },
+            {
+                "element": "fire",
+                "images": {
+                    "path": "../assets/steel_golem.png"
+                },
+                "title": "Steel Golem"
+            }
+        ],
+        "key": "golem"
+    }
+]

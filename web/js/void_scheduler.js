@@ -1,6 +1,6 @@
 import Vue from 'https://cdn.jsdelivr.net/npm/vue@latest/dist/vue.esm.browser.js'
 import navbar from './components/navbar.js';
-import assets from './assets.js';
+import voidscheduleinputday from './components/void-schedule-input-day.js'
 
 var app = new Vue({
     el: '#app',
@@ -12,7 +12,8 @@ var app = new Vue({
       ]
     },
     components: {
-      'navbar': navbar
+      'navbar': navbar,
+      'void-schedule-input-day': voidscheduleinputday
     },
     /*template*/
     template: `
@@ -21,6 +22,7 @@ var app = new Vue({
       <div class="container">
         <div class="jumbotron">
             <h1>{{ message }}</h1>
+            <void-schedule-input-day></void-schedule-input-day>
         </div>
       </div>
     </div>
