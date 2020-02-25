@@ -14,6 +14,14 @@ export default(Vue.component('void-schedule-input-day', {
     /*template*/
     template: `
     <div class="container">
+        <div class="row">
+            <div class="col-2"></div>
+            <div class="col-2">fire</div>
+            <div class="col-2">water</div>
+            <div class="col-2">wind</div>
+            <div class="col-2">light</div>
+            <div class="col-2">shadow</div>
+        </div>
         <void-schedule-input-row 
             v-bind:rowdata="asset.data" 
             v-for="asset in assets" 

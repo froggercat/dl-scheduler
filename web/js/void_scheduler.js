@@ -20,7 +20,7 @@ var app = new Vue({
     <div>
       <navbar :routes="routes"></navbar>
       <div class="container">
-        <div class="jumbotron">
+        <div class="jumbotron text-center">
             <h1>{{ message }}</h1>
             <void-schedule-input-day></void-schedule-input-day>
         </div>
