@@ -27,9 +27,10 @@ var app = new Vue({
   template: `
     <div>
       <navbar :routes="routes"></navbar>
-      <div id="carouselExampleIndicators" class="carousel" data-ride="carousel">
+      <div id="carouselExampleIndicators" class="carousel slide" data-interval="false">
       <ol class="carousel-indicators">
-        <li v-for="(day, index) in days" data-target="#carouselExampleIndicators" :data-slide-to="index" :class="day.active"></li>
+        <li v-for="(day, index) in days" data-target="#carouselExampleIndicators" 
+        :data-slide-to="index" :class="day.active"></li>
       </ol>
         <div class="carousel-inner"> 
           <div v-for="day in days" :class="'carousel-item '+day.active">
